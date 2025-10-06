@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧠 COVID-Pneumonia Chest X-ray Detection with CNN + Grad-CAM
 
 This AI-powered desktop application detects **COVID-19**, **Pneumonia**, or **Normal** conditions from chest X-ray images using a custom-built Convolutional Neural Network (CNN). It includes Grad-CAM visualization and generates detailed PDF reports with medical explanations.
@@ -25,34 +26,75 @@ This AI-powered desktop application detects **COVID-19**, **Pneumonia**, or **No
 
 ---
 
-## 🖼️ Sample Screenshots
+# AI-Powered Diagnostic Tool for X-Ray Image Analysis
 
-### 🧪 GUI Preview  
-<img src="https://github.com/Rushikesh1912/AI-Powered-Diagnostic-Tool-for-X-Ray-Image-Analysis/blob/main/Images/gui.jpg" width="700"/>
-
-### 📊 Graph Output  
-<img src="https://github.com/Rushikesh1912/AI-Powered-Diagnostic-Tool-for-X-Ray-Image-Analysis/blob/main/Images/graph.jpg" alt="Accuracy/Loss Graphs" width="700"/>
-
-### 📷 Model Predictions  
-<img src="https://github.com/Rushikesh1912/AI-Powered-Diagnostic-Tool-for-X-Ray-Image-Analysis/blob/main/Images/predictions.jpg" alt="Predictions Screenshot" width="700"/>
-
-### 🔥 Grad-CAM Heatmap  
-<img src="https://github.com/Rushikesh1912/AI-Powered-Diagnostic-Tool-for-X-Ray-Image-Analysis/blob/main/Images/grad-cam.jpg" alt="Grad-CAM Heatmap" width="700"/>
-
-### 📄 PDF Report  
-<img src="https://github.com/Rushikesh1912/AI-Powered-Diagnostic-Tool-for-X-Ray-Image-Analysis/blob/main/Images/report.jpg" alt="PDF Report Screenshot" width="700"/>
+This AI-powered desktop application detects COVID-19, Pneumonia, or Normal conditions from chest X-ray images using a custom Convolutional Neural Network (CNN). It includes Grad-CAM visualization and can generate PDF reports with prediction details.
 
 ---
 
-## 🚀 How to Run the Project
+## Features
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/Rushikesh1912/covid-xray-detection.git
-cd covid-xray-detection
+- Detects COVID-19, Pneumonia, or Normal from X-ray images
+- Visualizes Grad-CAM heatmaps for interpretability
+- Tkinter-based desktop GUI
+- Generates PDF reports with predictions and explanatory notes
+- Uses focal loss to handle class imbalance during training
 
-# 2. Install requirements
+---
+
+## Model Summary (project-level info)
+
+- Input Image Size: 224 x 224
+- Architecture: Custom CNN (no pretrained backbone)
+- Loss: Focal Loss
+- Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+
+---
+
+## Sample Screenshots
+
+GUI Preview
+![GUI](Images/gui.jpg)
+
+Graph Output
+![Graph](Images/graph.jpg)
+
+Model Predictions
+![Predictions](Images/predictions.jpg)
+
+Grad-CAM Heatmap
+![Grad-CAM](Images/grad-cam.jpg)
+
+PDF Report
+![Report](Images/report.jpg)
+
+---
+
+## How to run
+
+1. Clone this repository
+
+```powershell
+git clone https://github.com/rajshinde9909/AI-Powered-Diagnostic-Tool-for-X-Ray-Image-Analysis.git
+cd "AI-Powered-Diagnostic-Tool-for-X-Ray-Image-Analysis"
+```
+
+2. (Optional) Create a virtual environment and install dependencies
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+```
 
-# 3. Run the GUI
+3. Run the GUI (replace `GUI.ipynb` / `gui.py` with the appropriate entrypoint if present)
+
+```powershell
 python gui.py
+# or open the notebook
+jupyter notebook GUI.ipynb
+```
+
+---
+
+If anything in the README needs to be adjusted to match your intended project name, entrypoint script, or usage, tell me and I'll update it.
