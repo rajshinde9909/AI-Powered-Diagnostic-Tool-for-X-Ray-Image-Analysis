@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🧠 COVID-Pneumonia Chest X-ray Detection with CNN + Grad-CAM
 
 This AI-powered desktop application detects **COVID-19**, **Pneumonia**, or **Normal** conditions from chest X-ray images using a custom-built Convolutional Neural Network (CNN). It includes Grad-CAM visualization and generates detailed PDF reports with medical explanations.
